@@ -2,17 +2,27 @@
     <form>
         <div class = "container">
 
-            <label for = "Dirección"><b> Dirección de Hotel</b></label>
+            <label for = "Dirección"><b> Dirección de Hotel:</b></label>
             <input type = "text" placeholder="Ingrese la dirección" >
 
             <label for = "Departamento"><b>Departamento </b></label>
             <input type = "text" placeholder="Ingrese el departamento">
 
-            <label for = "Pais"><b>Departamento </b></label>
+            <label for = "Pais"><b>País</b></label>
             <input type = "text" placeholder="Ingrese el País">
 
             <label for = "correo"><b>Correo Electronico</b></label>
             <input type = "text" placeholder="Ingrese el correo electronico" >
+
+            <label for = "Servicios"><b>Nuestros Servicios </b></label>
+            <input type = "text" placeholder="Nuestros servicios">
+            
+            <label for = "Fecha de ingreso"><b>Fecha de ingreso</b></label>
+            <br />
+            <br />
+            <input type = "date" name= "fecha"/>
+            <br />
+            <br />
 
             <label for = "Instagram"><b>Instagram</b></label>
             <input type = "text" placeholder="Ingrese Instagram">
@@ -23,7 +33,8 @@
             <label for = "Otra"><b>Otra red social </b></label>
             <input type = "text" placeholder="Ingrese red social">
             
-
+            <input type="button"  (click)="Publicar()" value="Publicar">
+            <input type="button"  (click)="Actualizar()" value="Actualizar">    
         </div>
     </form>
 </div>

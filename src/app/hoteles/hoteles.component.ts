@@ -11,5 +11,12 @@ export class HotelesComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  Actualizar(): void{
+    
+  }
+  Publicar(): void{
+    
+  }
+
 
 }
